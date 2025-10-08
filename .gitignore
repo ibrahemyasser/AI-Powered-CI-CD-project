@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.cjs
+.pnp.js
+
+# Next.js build outputs
+.next/
+.next/cache/
+out/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+
+
+# Coverage / testing
+coverage/
+
+# Tooling caches
+.eslintcache
+.turbo/
+
+# Hosting / platforms
+.vercel/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.cursorindexingignore
+.specstory/
+
+# Misc
+*.swp
+*.swo

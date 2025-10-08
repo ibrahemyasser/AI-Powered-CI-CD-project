@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities */
+.text-gradient {
+  @apply bg-gradient-to-r from-cyan-400 via-sky-400 to-blue-500 bg-clip-text text-transparent;
+}
+
